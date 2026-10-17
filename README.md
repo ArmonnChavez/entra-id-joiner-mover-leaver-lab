@@ -71,13 +71,13 @@ A hands-on identity and access management (IAM) lab built in a free Microsoft En
 
 Removing old access before granting new access follows the **principle of least privilege**, so he never held both departments' access at the same time. The audit log confirms the order of every change.
 
-| Time | Activity |
+| Step | Activity |
 |---|---|
-| 8:13 PM | Add user |
-| 8:18 PM | Add member to group (Front Desk) |
-| 8:19 PM | Remove member from group (Front Desk) |
-| 8:21 PM | Add member to group (Finance) |
-| 8:22 PM | Update user (new title and department) |
+| 1 | Add user |
+| 2 | Add member to group (Front Desk) |
+| 3 | Remove member from group (Front Desk) |
+| 4 | Add member to group (Finance) |
+| 5 | Update user (new title and department) |
 
 ![Before: Front Desk](09-mover-luis-before.png)
 ![After: Finance only](10-mover-luis-after-groups.png)
